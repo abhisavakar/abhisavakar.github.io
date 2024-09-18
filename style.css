@@ -1,0 +1,102 @@
+body {
+    font-family: "Cormorant", serif;
+    margin: 20px;
+}
+
+.navbar {
+
+    text-align: justify;
+}
+
+h1 {
+    display: inline-block;
+    font-weight: 500;
+    margin-right: 0 32px 0 0;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.links {
+    display: inline-block;
+}
+
+.links li {
+    display: inline;
+    font-size: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0 10px;
+    /* text-decoration: underline; */
+}
+
+a.active {
+    border-bottom: 2px solid black;
+}
+
+.card {
+    width: 49.75%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card h2 {
+    display: inline-block;
+    margin: 8px 0 16px 0;
+    font-weight: 300;
+}
+
+p {
+    font-size: 20px;
+}
+
+.gallery {
+    padding: 15px;
+}
+
+.social-media {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    text-decoration: none;
+}
+
+.social-media a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.beforefooter {
+    margin-left: 80px;
+    display: inline-block;
+    width: 60%;
+    min-width: 600px;
+}
+
+.beforefooter>h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+.cta {
+    margin-top: 0;
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+.navbar ul li a:hover {
+    background-color: rgb(240, 235, 229);
+    border-bottom: 1px solid black;
+}
